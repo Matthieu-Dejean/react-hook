@@ -13,6 +13,7 @@ function Counter() {
 
   return (
     <div>
+        <h1>Bienvenue sur Netlify !</h1>
         <input placeholder="Add a start value" type="number" value={startNumber} onChange={e => setStartNumber(e.target.value)}/>
         <button type='submit' onClick={display}>
             Set the start number
